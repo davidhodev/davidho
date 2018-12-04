@@ -42,3 +42,9 @@ ul{
   margin: 6px;
   list-style: none;
 }
+
+.profilePic-img{
+    width: 202.6px; 
+    height: 131.4px;
+    border-radius: 50%;
+}
