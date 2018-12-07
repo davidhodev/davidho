@@ -4446,6 +4446,7 @@ Created using IcoMoon - icomoon.io
 .modal-content .modal-header .title {
   margin-top: 5px;
   margin-bottom: 0;
+    background-color: black;
 }
 
 .modal-content .modal-body {
@@ -4782,12 +4783,10 @@ Created using IcoMoon - icomoon.io
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 0vh;
 }
 
-.index-page .page-header .container > .content-center {
-  top: 37%;
-}
+
 
 .index-page .page-header .category-absolute {
   position: absolute;
@@ -4799,19 +4798,18 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page .header {
-  height: 100vh;
+  height: 10px;
   position: relative;
 }
 
 .landing-page .header .container {
-  padding-top: 26vh;
   color: #FFFFFF;
-  z-index: 2;
+  z-index: 0;
   position: relative;
 }
 
 .landing-page .header .share {
-  margin-top: 150px;
+  margin-top: 0px;
 }
 
 .landing-page .header h1 {
@@ -4819,7 +4817,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page .header .title {
-  color: #FFFFFF;
+  color: black;
 }
 
 .landing-page .section-team .team .team-player img {
@@ -4851,10 +4849,12 @@ Created using IcoMoon - icomoon.io
 .landing-page .section-contact-us a.btn {
   margin-top: 35px;
 }
+/*
 
 .profile-page .page-header {
-  min-height: 550px;
+  min-height: px;
 }
+*/
 
 .profile-page .profile-container {
   color: #FFFFFF;
@@ -4872,7 +4872,7 @@ Created using IcoMoon - icomoon.io
 
 .profile-page .title {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .profile-page .description,
@@ -4886,12 +4886,12 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page .nav-align-center {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .profile-page .content {
   max-width: 450px;
-  margin: 0 auto;
+  margin: 0 0;
 }
 
 .profile-page .content .social-description {
@@ -4907,8 +4907,9 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page .button-container {
+    margin-left: 7px;
   text-align: center;
-  margin-top: -106px;
+  margin-top: -165px;
 }
 
 .profile-page .collections img {
@@ -5139,7 +5140,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header {
-  height: 100vh;
+  height: 0vh;
   max-height: 1050px;
   padding: 0;
   color: #FFFFFF;
@@ -5176,9 +5177,10 @@ Created using IcoMoon - icomoon.io
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+    
   text-align: center;
-  padding: 0 15px;
-  color: #FFFFFF;
+  padding: 0 0px;
+  color: black;
   width: 100%;
   max-width: 880px;
 }
@@ -5191,9 +5193,11 @@ Created using IcoMoon - icomoon.io
 .page-header.page-header-small {
   height: 60vh;
   max-height: 440px;
+    background-color: white;
 }
 
 .page-header:after, .page-header:before {
+    background-color: white;
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -5242,7 +5246,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .section-story-overview .image-container + .category {
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .section-story-overview .image-container.image-right {
@@ -7053,18 +7057,24 @@ Created using IcoMoon - icomoon.io
 /* Body */
 /* Profile Page Background Style */
 .page-header {
-  background: rgba(44, 44, 44, 0.2);
+/*  background: rgba(44, 44, 44, 0.2);*/
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
+/*
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+*/
+    background-color: white;
   /* Standard syntax */
 }
 
 .page-header .btn {
-  width: 140px;
+  width: 200px;
+/*    background-color: black;*/
+  background-color: #4C4CFF;
+    
 }
 
 /* Profile Image Style */
@@ -7105,7 +7115,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(76,76,255, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
