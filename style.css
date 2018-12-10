@@ -186,17 +186,22 @@ ul{
 }
 
 .footer {
+    padding-top: 3000px;
     width: 90%;
-    height : 45px;
+    height : 125px;
     background-color:white;
     display: inline-block;
     text-align: right;
-    padding-top: 50px;
+    vertical-align: text-bottom;
     padding-right: 10%
+    
 }
 
 .footer h1{
-    
+/*    display: inline-block;*/
+    padding-top: 70px;
+    padding-bottom: 30px;
+    vertical-align: text-bottom;
   font-family: 'Century Gothic',sans-serif; 
   font-size: 13px;
   letter-spacing: 1px;
