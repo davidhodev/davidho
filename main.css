@@ -1486,7 +1486,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: pink;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1514,9 +1514,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
-  background-color: transparent;
+  background-color: pink;
   color: pink;
-  border-color: #40a249;
+  border-color: pink;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1526,8 +1526,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
-  background-color: transparent;
-  color: #40a249;
+  background-color: pink;
+  color: pink;
   text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1542,7 +1542,7 @@ fieldset[disabled] .btn-primary.active {
 .show > .btn-success.dropdown-toggle,
 .show > .btn-success.dropdown-toggle:focus,
 .show > .btn-success.dropdown-toggle:hover {
-  background-color: #1beb11;
+  background-color: pink;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1572,8 +1572,8 @@ fieldset[disabled] .btn-success.active {
 
 .btn-success.btn-simple:hover, .btn-success.btn-simple:focus, .btn-success.btn-simple:active {
   background-color: transparent;
-  color: #1beb11;
-  border-color: #1beb11;
+  color: pink;
+  border-color: pink;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1584,7 +1584,7 @@ fieldset[disabled] .btn-success.active {
 
 .btn-success.btn-link:hover, .btn-success.btn-link:focus, .btn-success.btn-link:active {
   background-color: transparent;
-  color: #1beb11;
+  color: pink;
   text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1818,7 +1818,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-neutral.btn-success:hover, .btn-neutral.btn-success:focus, .btn-neutral.btn-success:active {
-  color: #1beb11;
+  color: pink;
 }
 
 .btn-neutral.btn-default {
@@ -1834,13 +1834,13 @@ fieldset[disabled] .btn-neutral.active {
 .show > .btn-neutral.dropdown-toggle:focus,
 .show > .btn-neutral.dropdown-toggle:hover {
   background-color: #FFFFFF;
-  color: #40a249;
+  color: pink;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn-neutral:hover, .btn-neutral:focus {
-  color: #40a249;
+  color: pink;
 }
 
 .btn-neutral:hover:not(.nav-link), .btn-neutral:focus:not(.nav-link) {
@@ -1969,7 +1969,7 @@ fieldset[disabled]
   width: 100%;
 }
 
-.btn-group.select .btn {
+.btn-group.select .btn a{
   text-align: left;
 }
 
@@ -3371,10 +3371,10 @@ body {
 }
 
 .bg-nyu {
-  background-image: url("Images/nyu.png") !important;
-    background-size:     cover;                      /* <------ */
+  background-image: url("Images/nyu.png") !important;                     /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
+    background-size: 60%;
     
 }
 
@@ -3383,6 +3383,7 @@ body {
 background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
+    background-size: 60%;
 }
 
 .bg-intelli{
@@ -3390,12 +3391,14 @@ background-size:     cover;                      /* <------ */
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
+    background-size: 70%
 }
 .bg-stor{
     background-image: url("Images/1024pt%20Icon@1x.png");
         background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
+    background-size: 60%
 }
 
 .bg-info {
@@ -4896,7 +4899,7 @@ Created using IcoMoon - icomoon.io
 .profile-page .button-container {
     margin-left: 7px;
   text-align: center;
-  margin-top: 0px; 
+  margin-top: 20px; 
 /*    HERE */
 }
 
@@ -4924,16 +4927,7 @@ Created using IcoMoon - icomoon.io
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.section-full-page[filter-color="purple"]:after, .section-full-page[filter-color="primary"]:after {
-  background: rgba(227, 227, 227, 0.26);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(227, 227, 227, 0.26)), to(rgba(55, 140, 63, 0.95)));
-  background: linear-gradient(0deg, rgba(227, 227, 227, 0.26), rgba(55, 140, 63, 0.95));
-  /* Standard syntax */
-}
+
 
 .section-full-page[data-image]:after {
   opacity: .5;
@@ -5106,7 +5100,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .section {
-  padding: 70px 0;
+  padding: 30px 0;
   position: relative;
   background: #FFFFFF;
 }
@@ -5179,8 +5173,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header.page-header-small {
-  height: 26vh;
-  max-height: 30vh;
+  height: 206vh;
+  max-height: 45vh;
     width: 100%;
     background-color: white;
 }
@@ -7169,11 +7163,17 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-  padding-top: 60px;
-  padding-right: 0;
+      background-color: rgb(0,0,0,.75);
+    background-position: center;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding-top: 13%;
+/*  padding-right: 5%;*/
   text-align: center;
   color: #fff;
-  text-transform: uppercase;
 }
 
 /* Education Style */
@@ -7182,15 +7182,24 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-education .cc-education-header {
-  padding-top: 60px;
-  padding-right: 0;
+/*  background-color: rgb(128,128,128,.8);*/
+    background-color: rgb(0,0,0,.75);
+    background-position: center;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding-top: 20%;
+/*  padding-right: 5%;*/
   text-align: center;
   color: #fff;
 }
 
 /* References Style */
+/* Padding for Awards */
 .cc-reference .card {
-  padding: 60px;
+  padding: 70px;
 }
 
 .cc-reference img {
@@ -7217,14 +7226,14 @@ Created using IcoMoon - icomoon.io
 
 @media (max-width: 768px) {
     .cc-reference .cc-reference-header {
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     text-align: center;
   }
   .cc-reference .carousel-indicators {
-    bottom: 0px;
+    bottom: -30px;
   }
   .cc-reference ol {
-    margin-bottom: -20px;
+    margin-bottom: 20px;
   }
 }
 
