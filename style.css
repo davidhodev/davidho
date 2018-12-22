@@ -198,7 +198,7 @@ ul{
   float: left;
   margin-top: 2%;
   color: black;
-  font-family: 'Chivo',sans-serif;
+/*  font-family: 'Chivo',sans-serif;*/
 }
 .hobbiesBox h1{
   font-family: 
@@ -216,7 +216,7 @@ ul{
   text-align: left;
   font-size: 12px;
   letter-spacing: 1px;
-    font-family: 'Chivo',sans-serif;
+    font-family: 'Century Gothic',sans-serif; 
 /*  font-weight: 100;*/
     font-weight: lighter;
     
