@@ -6513,7 +6513,7 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-      background-color: rgb(255,255,255,.75);
+      background-color: rgb(0,0,0,.75);
     background-position: center;
     width: 80%;
     height: 90%;
@@ -6523,7 +6523,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 13%;
 /*  padding-right: 5%;*/
   text-align: center;
-  color: #fff;
+    color: white;
 }
 
 /* Education Style */
@@ -6531,11 +6531,10 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 0;
 }
 
+/* HERE */
 .cc-education .cc-education-header {
-/*  background-color: rgb(128,128,128,.8);*/
-    background-color: rgb(255,255,255,.75);
+    background-color: rgb(0,0,0,.75);
     background-position: center;
-    
     width: 80%;
     height: 90%;
     margin: auto;
@@ -6543,8 +6542,8 @@ Created using IcoMoon - icomoon.io
   top: 0; left: 0; bottom: 0; right: 0;
   padding-top: 20%;
 /*  padding-right: 5%;*/
-  text-align: center;
-  color: #fff;
+  color: white;
+  text-align: center;   
 }
 
 /* References Style */
