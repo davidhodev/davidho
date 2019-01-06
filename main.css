@@ -6513,8 +6513,7 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-      background-color: rgb(0,0,0);
-    opacity: 0.75;
+    background:  rgba(27, 23, 23, 0.8);
     background-position: center;
     width: 80%;
     height: 90%;
@@ -6534,8 +6533,11 @@ Created using IcoMoon - icomoon.io
 
 /* HERE */
 .cc-education .cc-education-header {
+/*
     background-color: rgb(0,0,0);
-    opacity: 0.75;
+    opacity: 0.8;
+*/
+    background:  rgba(27, 23, 23, 0.8);
     background-position: center;
     width: 80%;
     height: 90%;
