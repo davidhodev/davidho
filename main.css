@@ -2751,6 +2751,14 @@ background-size:     cover;                      /* <------ */
     background-size: 60%
 }
 
+.bg-mufg{
+    background-image: url("Images/MUFG.jpg") !important;
+        background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 160%
+}
+
 .bg-info {
   background-color: #2CA8FF !important;
 }
