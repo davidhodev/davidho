@@ -2720,6 +2720,22 @@ body {
   background-color: #4c4cff !important;
 }
 
+.bg-apple {
+  background-image: url("Images/bg-apple.jpg") !important;                     /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    
+}
+
+.bg-peloton {
+  background-image: url("Images/pton-logo.jpg") !important;                     /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    
+}
+
 .bg-nyu {
   background-image: url("Images/nyu.png") !important;                     /* <------ */
     background-repeat:   no-repeat;
